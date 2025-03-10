@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Planos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Planos</h1>
+
+    <div id="formulario-pesquisa">
+        <label for="pesquisa">Pesquisar Plano:</label>
+        <input type="text" id="pesquisa" placeholder="Digite o nome do plano">
+    </div>
+
+    <table id="tabela-planos">
+        <thead>
+            <tr>
+                <th>Nome do Plano</th>
+                <th>Tipo (Modalidade)</th>
+                <th>VISA</th>
+                <th>Mastercard</th>
+                <th>Elo</th>
+                <th>Hipercard</th>
+                <th>Prazo de Recebimento</th>
+                <th>Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <p>Taxa de Antecipação: <span id="taxa-antecipacao">1,75%</span></p>
+
+    <h2>Adicionar Plano</h2>
+    <form id="form-adicionar-plano">
+        <label for="nome">Nome do Plano:</label>
+        <input type="text" id="nome" name="nome" required><br>
+
+        <label for="tipo">Tipo (Modalidade):</label>
+        <input type="text" id="tipo" name="tipo" required><br>
+
+        <label for="visa">VISA:</label>
+        <input type="text" id="visa" name="visa" required><br>
+
+        <label for="mastercard">Mastercard:</label>
+        <input type="text" id="mastercard" name="mastercard" required><br>
+
+        <label for="elo">Elo:</label>
+        <input type="text" id="elo" name="elo" required><br>
+
+        <label for="hipercard">Hipercard:</label>
+        <input type="text" id="hipercard" name="hipercard" required><br>
+
+        <label for="prazo">Prazo de Recebimento:</label>
+        <input type="text" id="prazo" name="prazo" required><br>
+
+        <button type="submit">Adicionar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
