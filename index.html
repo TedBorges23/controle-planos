@@ -1,20 +1,31 @@
-body {
-    font-family: sans-serif;
-    margin: 20px;
-}
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle de Planos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Controle de Planos</h1>
 
-table {
-    width: 100%;
-    border-collapse: collapse;
-    margin-bottom: 20px;
-}
+    <table id="tabela-planos">
+        <thead>
+            <tr>
+                <th>Tipo (Modalidade)</th>
+                <th>VISA</th>
+                <th>Mastercard</th>
+                <th>Elo</th>
+                <th>Hipercard</th>
+                <th>Prazo de Recebimento</th>
+            </tr>
+        </thead>
+        <tbody>
+            </tbody>
+    </table>
 
-th, td {
-    border: 1px solid #ddd;
-    padding: 8px;
-    text-align: left;
-}
+    <p>Taxa de Antecipação: <span id="taxa-antecipacao">1,75%</span></p>
 
-th {
-    background-color: #f2f2f2;
-}
+    <script src="script.js"></script>
+</body>
+</html>
